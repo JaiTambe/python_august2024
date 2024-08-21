@@ -8,5 +8,5 @@ print("Math Table:")
 
 for i in range(1,math_table_size+1):
     number_product = math_number*i
-    print(math_number,"×",i,"=",number_product)
+    print('%02d * %02d = %03d'%(math_number,i,number_product))
     number_product = 0
